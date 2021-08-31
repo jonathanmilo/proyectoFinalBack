@@ -1,0 +1,25 @@
+[
+    {"id":1,"timestamp":"carrito", "productos":[
+    {
+    "idP":11, "timestamp":"producto","nombre":"mascota","descripcion":"perrito","codigo":11,"foto":"https://picsum.photos/50/50?random=1","precio":1,"stock":2
+    },
+    {
+    "idP":12, "timestamp":"producto","nombre":"mascota","descripcion":"perrito","codigo":12,"foto":"https://picsum.photos/50/50?random=2","precio":5,"stock":1
+    },
+    {
+    "idP":13, "timestamp":"producto","nombre":"mascota","descripcion":"perrito","codigo":13,"foto":"https://picsum.photos/50/50?random=3","precio":10,"stock":5
+    }
+] },
+{"id":2,"timestamp":"carrito", "productos":[
+    {
+    "idP":21, "timestamp":"producto","nombre":"instrumento","descripcion":"bandoneon","codigo":21,"foto":"https://picsum.photos/50/50?random=4","precio":1,"stock":2
+    },
+    {
+    "idP":22, "timestamp":"producto","nombre":"instrumento","descripcion":"saxofón",  "codigo":22,"foto":"https://picsum.photos/50/50?random=5","precio":5,"stock":1
+    },
+    {
+    "idP":23, "timestamp":"producto","nombre":"instrumento","descripcion":"guitarra", "codigo":23,"foto":"https://picsum.photos/50/50?random=","precio":10,"stock":5
+    }
+    ] }
+
+]

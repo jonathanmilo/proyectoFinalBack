@@ -1,0 +1,37 @@
+
+        <h3>administrador</h3>
+      
+ {{#each sugestedChamps}}
+    <div class="tile is-ancestor">
+      
+        {{this.timestamp}}+{{this.id}}
+        
+        <div class="tile is-parent">
+        {{#each this.productos}}
+        <div class="tile ">
+        <div class="card is-one-third">
+            <div class="card-image">
+                <figure class=" ">
+                    <img src="{{this.foto}}"alt="Placeholder image">
+                </figure>
+            </div>
+            <div class="card-content ">
+                <div class="media">
+                    <div class="media-content">
+                        <p class="title is-4">{{this.timestamp}}</p>
+                        <p class="subtitle is-6">{{this.nombre}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content ">
+                <p class="tile is-6">{{this.descripcion}}</p>
+                <p class="tile is-6">{{this.precio}}</p>
+                <p class="tile is-6">{{this.stock}}</p>
+                <p class="tile is-6">{{this.codigo}}</p>
+            </div>
+         </div>
+        </div>
+        {{/each}}
+        </div>
+        {{/each}}
+    </div>
